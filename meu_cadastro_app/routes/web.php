@@ -16,3 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('listar');
 });
+
+Route::get('/', function () {
+    return view('cadastrar');
+});

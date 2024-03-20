@@ -8,6 +8,7 @@
     <title>Agendamento</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
   </head>
 
 
@@ -28,45 +29,99 @@
  
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-        <a class="nav-link active" aria-current="page" href="#">Cadastrar</a>
-        <a class="nav-link" aria-current="page" href="#">Consultar</a>
+        <a class="nav-link active" aria-current="page" href="cadastrar.blade.php">Cadastrar</a>
+        <a class="nav-link" aria-current="page" href="listar.blade.php">Consultar</a>
       </div>
     </div>
  
   </div>
 </nav>
 <!-- fim do código do navbar -->
-<br><br>
+<br>
 
  <h2> Cadastrar - Agendamento de Potenciais Clientes </h2>
- <br>
+ 
  <h4> Sistema utilizado para agendamentos de serviços </h4>
 
 <br><br>
 
 
-<div class="container text-center" style="background-color: #e3f2fd;">
 
-  <div class="row">
-    <div class="col"> Nome </div>
-    <div class="col"> Endereço </div>
-    <div class="col"> Bairro </div>
-  </div>
 
+<div class="table-responsive-lg">
+<table class="table table-striped-columns">
+  <thead>
+    <tr>
+      <th scope="col">Nome</th>
+      <th scope="col">Endereço</th>
+      <th scope="col">Bairro</th>
+    </tr>
+  </thead>
+
+  <tbody class="table-group-divider">
+    <tr>
+      <td>Anna Araujo Fernandes </td>
+      <td>Vila Santana, 1811 </td>
+      <td>João Pessoa </td>
+    </tr>
+
+    <tr>
+      <td>Ryan Santos Souza </td>
+      <td>Caminho dos Cachorros, 1526 </td>
+      <td>Vitória da Conquista </td>
+    </tr>
+
+    <tr>
+      <td>Carla Silva Correia </td>
+      <td>Beco da Paz, 943 </td>
+      <td>Blursa </td>
+    </tr>
+  </tbody>
+
+</table>
 </div>
-<br>
-<div class="container text-center" style="background-color: #e3f2fd;">
 
-<div class="row">
-    <div class="col"> CEP </div>
-    <div class="col"> Cidade </div>
-    <div class="col"> Estado </div>
-    <div class="col"> Ação </div>
-    
+<br>
+
+
+<div class="table-responsive-lg">
+<table class="table table-striped-columns">
+  <thead>
+    <tr>
+      <th scope="col">CEP</th>
+      <th scope="col">Cidade</th>
+      <th scope="col">Estado</th>
+      <th scope="col">Ação</th>
+    </tr>
+  </thead>
+
+  <tbody class="table-group-divider">
+    <tr>
+      <td>58030-059 </td>
+      <td>Vinas </td>
+      <td>PR </td>
+      <td>Novo cliente </td>
+    </tr>
+
+    <tr>
+      <td>45030-080 </td>
+      <td>Cresdence </td>
+      <td>BA </td>
+      <td>Novo cliente </td>
+    </tr>
+
+    <tr>
+      <td>21512-300 </td>
+      <td>Plonio </td>
+      <td>RJ </td>
+      <td>Inserir CPF </td>
+    </tr>
+  </tbody>
+
+</table>
 </div>
 
 </center>
-<script src="/bootstrap-5.3.3-dist/js/boostrap.js"></script>
 
   </body>
 
